@@ -79,6 +79,18 @@ alert(res);
 6. 🎖Use a while loop to add up the numbers 1 to 20.
 ```js
 // Your code goes here
+let sum=0;
+let i=1;
+while(i<=20){
+ sum +=i;
+ i++;
+}
+alert(sum);
+```
+
+7. 🎖Use a while loop to print out the even number from 1 to 20. (You'll need Modulus for this. And an IF Statement.)
+```js
+// Your code goes here
 let i=1;
 while(i <= 20)
 {
@@ -86,17 +98,4 @@ while(i <= 20)
      alert(i);
      i++;
 }
-```
-
-7. 🎖Use a while loop to print out the even number from 1 to 20. (You'll need Modulus for this. And an IF Statement.)
-```js
-// Your code goes here
-let sum="";
-for (let i=1;i<=20;i++){
-if (i%2==0){
- sum+=(i)
- if(i!=20)
- sum+=(",")
-}
-}alert(sum);
 ```
